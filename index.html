@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sekar Ayu Selomita Portofolio</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body class="bg-gradient-to-r from-purple-400 to-pink-500 backdrop-blur-md text-gray-800 flex flex-col min-h-screen">
+<body class="scrool-smooth">
+  <nav class="bg-transparent sticky top-0 z-50 py-3">
+    <div class="container mx-auto flex justify-between items-center px-4">
+      <div class="flex items-center space-x-3">
+      <span class="text-5xl font-bold text-white">sellta</span>
+      </div>
+      <div class="hidden md:flex space-x-6 text-sm font-semibold">
+        <a href="#home" class="text-white hover:text-purple-300 transition">Home</a>
+        <a href="#aboutme" class="text-white hover:text-purple-300 transition">About me</a>
+        <a href="#projects-experiences" class="text-white hover:text-purple-300 transition">Projects</a>
+        <a href="#journey" class="text-white hover:text-purple-300 transition">My Journey</a>
+        <a href="#contact" class="text-white hover:text-purple-300 transition">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" class="min-h-screen flex flex-col justify-center items-center text-center px-4">
+    <div class="flex flex-col items-center justify-center space-y-6 fade">
+      <div class="relative">
+        <div class="absolute inset-0 rounded-full bg-purple-300 blur-2xl opacity-70 animate-pulse-slow"></div>
+        <img src="image/picmita.png" alt="foto sekar ayu selomita" class="relative w-56 h-56 rounded-full object-cover border-4 border-purple-300 shadow-lg" />
+      </div>
+      <h1 class="text-5xl font-bold text-white text-center">
+        Hello, I'm Mitaa <span>💜</span>
+      </h1>
+      <p class="text-4xl text-lg text-white text-center max-w-xl">
+        I'm the UX/UI designer</p>
+      <a href="#aboutme" class="bg-purple-500 text-white px-6 py-3 rounded-full text-lg mt-4 hover:bg-purple-600 transition">
+        Learn More ↓
+      </a>
+    </div>
+  </section>
+
+  <section id="aboutme" class="py-20 px-4 bg-white">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+      <div class="fade">
+        <img src="image/picmita.png" alt="foto sekar ayu selomita" class="w-full rounded-2xl shadow-lg hover:scale-105 transition duration-500 group-hover:scale-105 relative z-10">
+      </div>
+      <div class="fade">
+        <h2 class="text-center text-4xl font-bold text-gray-800 mb-4">About Me 🌸</h2>
+        <p class="text-justify text-left text-gray-800 mb-4">Hi my name is sekar ayu selomita and I use Mita as my nickname, sellta is my abbreviated name, Sellta (selomita).
+           My age is currently 16 years old, it's still young, but at my age, I have started to explore the world of engineering.
+           Especially in the field of software engineering, in this field I became a UX / UI designer.
+           I am very proud to be able to call me a UX / UI designer, but it was not an easy journey, I have experienced many failures.
+           I am still learning and growing as a designer, but I am proud of what I have achieved so far. </p>
+        <div class="grid grid-cols-2 gap-4">
+          <div class="bg-purple-50 p-4 rounded-lg shadow tilt-card">🎨 UI/UX Enthusiast</div>
+          <div class="bg-purple-50 p-4 rounded-lg shadow tilt-card">💡 Creative Developer</div>
+          <div class="bg-purple-50 p-4 rounded-lg shadow tilt-card">⚡ Smooth Animations</div>
+          <div class="bg-purple-50 p-4 rounded-lg shadow tilt-card">✨ Detail-Oriented</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects-experiences" class="py-16 px-4 scroll-mt-20">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl text-white font-bold text-center mb-8">Project Experience <span class="text-xl">💻</span></h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+        <a href="project.history/home.html" target="_blank" onclick="shakeCard(this)" class="block bg-white rounded-md shadow-md overflow-hidden hover:glow-purple transition cursor-pointer">
+          <img src="image/homehistory.png" alt="Project Web 1" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold text-purple-800 mb-2">Legends Unfold</h3>
+          </div>
+        </a>
+
+        <a href="project2/index.html" target="_blank" onclick="shakeCard(this)" class="block bg-white rounded-md shadow-md overflow-hidden hover:glow-purple transition cursor-pointer">
+          <img src="image/homeghibli.jpg" alt="Project Web 2" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold text-purple-800 mb-2">Spirit of Ghibli</h3>
+          </div>
+        </a>
+
+        <a href="travel/index.html" target="_blank" onclick="shakeCard(this)" class="block bg-white rounded-md shadow-md overflow-hidden hover:glow-purple transition cursor-pointer">
+          <img src="image/hometravel.jpg" alt="Project Web 3" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold text-purple-800 mb-2">TravelVerse</h3>
+          </div>
+        </a>
+
+        <a href="konserbaemon/index.html" target="_blank" onclick="shakeCard(this)" class="block bg-white rounded-md shadow-md overflow-hidden hover:glow-purple transition cursor-pointer">
+          <img src="image/homeBM.jpg" alt="Project Web 4" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold text-purple-800 mb-2">The Baemon Experience</h3>
+          </div>
+        </a>
+
+        <a href="hospital.web/index.html" target="_blank" onclick="shakeCard(this)" class="block bg-white rounded-md shadow-md overflow-hidden hover:glow-purple transition cursor-pointer">
+          <img src="image/homehospital.jpg" alt="Project Web 5" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold text-purple-800 mb-2">MediCare</h3>
+          </div>
+        </a>
+
+        <a href="shopping/index.html" target="_blank" onclick="shakeCard(this)" class="block bg-white rounded-md shadow-md overflow-hidden hover:glow-purple transition cursor-pointer">
+          <img src="image/homeshop.jpg" alt="Project Web 6" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold text-purple-800 mb-2">Shooping Shop</h3>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="journey" class="py-20 px-4 bg-white">
+    <div class="max-w-5xl mx-auto text-center fade">
+      <h2 class="text-4xl font-bold text-purple-700 mb-4">My Journey 🚀</h2>
+      <p class="text-purple-600 mb-10">Here are some snapshots of my web-building journey</p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div class="relative group tilt-card hover-glow overflow-hidden rounded-lg shadow-md">
+          <img src="image/journey1.jpg" alt="Journey Photo 1" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
+          <div class="absolute inset-0 bg-purple-800 bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white text-lg font-semibold">
+            Planning Stage ✍️
+          </div>
+        </div>
+        <div class="relative group tilt-card hover-glow overflow-hidden rounded-lg shadow-lg">
+          <img src="image/journey2.jpg" alt="Journey Photo 2" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
+          <div class="absolute inset-0 bg-purple-800 bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white text-lg font-semibold">
+            Wireframe ✨
+          </div>
+        </div>
+        <div class="relative group tilt-card hover-glow overflow-hidden rounded-lg shadow-lg">
+          <img src="image/journey3.jpg" alt="Journey Photo 3" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
+          <div class="absolute inset-0 bg-purple-800 bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white text-lg font-semibold">
+            First Draft 💻
+          </div>
+        </div>
+        <div class="relative group tilt-card hover-glow overflow-hidden rounded-lg shadow-lg">
+          <img src="image/journey4.jpg" alt="Journey Photo 4" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
+          <div class="absolute inset-0 bg-purple-800 bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white text-lg font-semibold">
+            Debugging 🐞
+          </div>
+        </div>
+        <div class="relative group tilt-card hover-glow overflow-hidden rounded-lg shadow-lg">
+          <img src="image/journey5.jpg" alt="Journey Photo 5" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
+          <div class="absolute inset-0 bg-purple-800 bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white text-lg font-semibold">
+            Testing ✅
+          </div>
+        </div>
+        <div class="relative group tilt-card hover-glow overflow-hidden rounded-lg shadow-lg">
+          <img src="image/journey6.jpg" alt="Journey Photo 6" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
+          <div class="absolute inset-0 bg-purple-800 bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white text-lg font-semibold">
+            Final Touch 🎨
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-20 px-4">
+    <div class="max-w-xl mx-auto text-center fade">
+      <h2 class="text-4xl font-bold text-white mb-4">Say Hello 📬</h2>
+      <p class="text-xl text-white mb-4">Feel free to reach out if you'd like to collaborate or just say hi!</p>
+      <form class="bg-purple-50 p-6 rounded-lg shadow space-y-4">
+        <input type="text" placeholder="Your Name" class="w-full p-3 rounded border border-purple-200 focus:ring-purple-400">
+        <input type="email" placeholder="Your Email" class="w-full p-3 rounded border border-purple-200 focus:ring-purple-400">
+        <textarea rows="4" placeholder="Your Message" class="w-full p-3 rounded border border-purple-200 focus:ring-purple-400"></textarea>
+        <button type="submit" class="bg-purple-500 text-white px-4 py-2 rounded-full shadow hover:bg-purple-600 transition hover-glow">Send 💌</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="mt-auto bg-white text-gray-700 py-10 px-4 shadow-lg">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
+      <div class="col-span-full lg:col-span-1 flex flex-col items-center lg:items-start text-center lg:text-left mb-8 lg:mb-0">
+        <div class="flex items-center text-xl font-bold text-gray-900 mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-purple-500 rounded-full" viewBox="0 0 24 24">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+          </svg>
+          <span class="ml-3 text-xl text-gray-800">sellta</span>
+        </div>
+        <p class="text-sm text-gray-800">© sellta - @sell_taa</p>
+      </div>
+
+      <div>
+        <h4 class="text-lg font-semibold text-gray-800 mb-4">FIND YOUR WAY</h4>
+        <ul class="space-y-2">
+          <li><a href="#home" class="hover:text-purple-600 transition-colors duration-200">Home</a></li>
+          <li><a href="#aboutme" class="hover:text-purple-600 transition-colors duration-200">About me</a></li>
+          <li><a href="#projects-experiences" class="hover:text-purple-600 transition-colors duration-200">Projects</a></li>
+          <li><a href="#journey" class="hover:text-purple-600 transition-colors duration-200">My Journey</a></li>
+          <li><a href="#contact" class="hover:text-purple-600 transition-colors duration-200">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-lg font-semibold text-gray-800 mb-4">PROJECTS EXPERINCES</h4>
+        <ul class="space-y-2">
+          <li><a href="project.history/home.html" class="hover:text-purple-600 transition-colors duration-200">Legends Unfold</a></li>
+          <li><a href="project2/index.html" class="hover:text-purple-600 transition-colors duration-200">Spirit of Ghibli</a></li>
+          <li><a href="travel/index.html" class="hover:text-purple-600 transition-colors duration-200">TravelVerse</a></li>
+          <li><a href="shopping/index.html" class="hover:text-purple-600 transition-colors duration-200">Shooping Shop</a></li>
+          <li><a href="hospitalweb/index.html" class="hover:text-purple-600 transition-colors duration-200">MediCare</a></li>
+           <li><a href="konserbaemon/index.html" class="hover:text-purple-600 transition-colors duration-200">The Baemon Experience</a></li>
+        </ul>
+      </div>
+    <div class="border-t border-gray-200 mt-40 pt-6 flex flex-col sm:flex-row items-center justify-between text-sm max-w-6xl mx-auto">
+      <div class="hidden sm:block"></div>
+      <div class="flex space-x-4">
+        <a
+          href="https://www.instagram.com/sell.taa_"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-gray-500 hover:text-pink-600 transition-colors duration-200 text-2xl"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a
+          href="https://x.com/selltaa_"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-gray-500 hover:text-black transition-colors duration-200 text-2xl"
+        >
+          <i class="fab fa-x-twitter"></i>
+        </a>
+        <a
+          href="https://www.youtube.com/@sellomita3144" target="_blank"
+          rel="noopener noreferrer"
+          class="text-gray-500 hover:text-red-600 transition-colors duration-200 text-2xl"
+        >
+          <i class="fab fa-youtube"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</body>
+</html>

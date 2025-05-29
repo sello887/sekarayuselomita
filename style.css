@@ -1,0 +1,63 @@
+/* Animasi Pulse Slow */
+      @keyframes pulse-slow {
+        0%, 100% {
+          opacity: 0.7;
+          transform: scale(1);
+        }
+        50% {
+          opacity: 1;
+          transform: scale(1.1);
+        }
+      }
+      .animate-pulse-slow {
+        animation: pulse-slow 4s ease-in-out infinite;
+      }
+
+      /* Efek Fade */
+      .fade {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: all 0.6s ease-out;
+      }
+      .fade.show {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      /* Hover Glow */
+      .hover-glow:hover {
+        box-shadow: 0 0 15px rgba(168, 85, 247, 0.5);
+      }
+      .hover\:glow-purple:hover { /* Ini untuk link project Anda */
+        box-shadow: 0 0 15px rgba(168, 85, 247, 0.5);
+      }
+
+      /* Tilt Card */
+      .tilt-card {
+        transition: transform 0.3s ease;
+      }
+      .tilt-card:hover {
+        transform: scale(1.03) rotate(1deg);
+      }
+
+      /* Font Family untuk Body (hanya berfungsi jika Quicksand diimpor) */
+      body {
+        font-family: 'Quicksand', sans-serif;
+      }
+
+      /* Efek agar teks putih di navbar tetap terlihat */
+      nav a, nav span {
+        text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+      }
+
+      /* Tambahan untuk efek shake (jika Anda pakai shakeCard JS function) */
+      @keyframes animate-shake {
+          0%, 100% { transform: translateX(0); }
+          20%, 60% { transform: translateX(-5px); }
+          40%, 80% { transform: translateX(5px); }
+      }
+      .animate-shake {
+          animation: animate-shake 0.5s ease-in-out;
+      }
+    
+      
